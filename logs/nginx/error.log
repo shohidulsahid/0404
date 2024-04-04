@@ -1,0 +1,3 @@
+2024/03/14 13:01:54 [crit] 17880#18148: *454 CreateFile() "C:/Users/LAPCARTBD.COM/Local Sites/organic-store/app/public/wp-content/plugins/elementor/assets/js/ai.min.js" failed (225: Operation did not complete successfully because the file contains a virus or potentially unwanted software), client: 127.0.0.1, server: , request: "GET /wp-content/plugins/elementor/assets/js/ai.min.js?ver=3.20.1 HTTP/1.0", host: "organic-store.local", referrer: "http://organic-store.local/wp-admin/post.php?post=9&action=elementor"
+2024/03/14 13:03:50 [alert] 19420#18556: OpenEvent("ngx_master_10952") failed (2: The system cannot find the file specified)
+2024/03/18 15:31:57 [alert] 7200#8060: OpenEvent("ngx_master_16376") failed (2: The system cannot find the file specified)

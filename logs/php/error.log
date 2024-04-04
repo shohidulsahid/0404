@@ -1,0 +1,51 @@
+[17-Mar-2024 04:52:05 UTC] PHP Warning:  Undefined array key "requires" in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-content\plugins\elementor-pro\license\updater.php on line 65
+[17-Mar-2024 04:52:05 UTC] PHP Warning:  Undefined array key "new_version" in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-content\plugins\elementor-pro\license\updater.php on line 75
+[18-Mar-2024 08:11:07 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Mar-2024 06:08:18 UTC] PHP Warning:  Undefined array key "requires" in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-content\plugins\elementor-pro\license\updater.php on line 65
+[19-Mar-2024 06:08:18 UTC] PHP Warning:  Undefined array key "new_version" in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-content\plugins\elementor-pro\license\updater.php on line 75
+[19-Mar-2024 10:30:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#3 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\block-editor.php(377): wp_print_footer_scripts()
+#4 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\block-editor.php(623): _wp_get_iframed_editor_assets()
+#5 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-customize-widgets.php(849): get_block_editor_settings(Array, Object(WP_Block_Editor_Context))
+#6 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(324): WP_Customize_Widgets->enqueue_scripts('')
+#7 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-admin\customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Mar-2024 10:30:32 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#3 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\block-editor.php(377): wp_print_footer_scripts()
+#4 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\block-editor.php(623): _wp_get_iframed_editor_assets()
+#5 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-customize-widgets.php(849): get_block_editor_settings(Array, Object(WP_Block_Editor_Context))
+#6 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(324): WP_Customize_Widgets->enqueue_scripts('')
+#7 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-admin\customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Mar-2024 10:30:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#3 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\block-editor.php(377): wp_print_footer_scripts()
+#4 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\block-editor.php(623): _wp_get_iframed_editor_assets()
+#5 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-customize-widgets.php(849): get_block_editor_settings(Array, Object(WP_Block_Editor_Context))
+#6 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(324): WP_Customize_Widgets->enqueue_scripts('')
+#7 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-admin\customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Mar-2024 10:35:21 UTC] PHP Warning:  Undefined array key "requires" in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-content\plugins\elementor-pro\license\updater.php on line 65
+[19-Mar-2024 10:35:21 UTC] PHP Warning:  Undefined array key "new_version" in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-content\plugins\elementor-pro\license\updater.php on line 75
+[21-Mar-2024 05:47:05 UTC] PHP Warning:  Undefined array key "requires" in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-content\plugins\elementor-pro\license\updater.php on line 65
+[21-Mar-2024 05:47:05 UTC] PHP Warning:  Undefined array key "new_version" in C:\Users\LAPCARTBD.COM\Local Sites\organic-store\app\public\wp-content\plugins\elementor-pro\license\updater.php on line 75
